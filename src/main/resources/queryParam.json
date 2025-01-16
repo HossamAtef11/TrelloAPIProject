@@ -1,0 +1,71 @@
+{
+
+  "CreateBoard" :{"name": "Testing Courses", "defaultLists": false},
+
+  "CreateList1" :{"name" : "Done"},
+  "CreateList2" :{"name" : "ToDo"},
+  "CreateList3" :{"name" : "Doing"},
+  "CreateList4" :{"name" : "ToBeDone"},
+  "CreateList5" :{"name" : "Later"},
+  "CreateList6" :{"name" : "Archive"},
+
+
+  "CreateCard1" :{"name" : "Selenium Course"},
+  "CreateCard2" :{"name" : "RestAssured Course"},
+  "CreateCard3" :{"name" : "Java Course"},
+  "CreateCard4" :{"name" : "Appium Course"},
+  "CreateCard5" :{"name" : "Manual Course"},
+  "CreateCard6" :{"name" : "API Course"},
+  "CreateCard7" :{"name" : "Jmeter Course"},
+  "CreateCard8" :{"name" : "Cypress Course"},
+
+
+  "Selenium CourseChecklists"   :["LocatorsSelenium","Functions","DataDriven","Actions","Assertions"],
+  "RestAssured CourseChecklists":["Headers","Body"],
+  "Java CourseChecklists"       :["OOP","DesignPattern"],
+  "Appium CourseChecklists"     :["Locators","Capabilities","Simulations"],
+  "Manual CourseChecklists"     :["ISTQB-CTFL"],
+  "API CourseChecklists"        :["Postman", "Newman-CLI"],
+  "Jmeter CourseChecklists"     :["Controllers","Looping"],
+  "Cypress CourseChecklists"    :["LocatorCypress","Methods","Injection"],
+
+
+  "LocatorsSeleniumCheckItems"  :["Ids", "xPaths"],
+  "FunctionsCheckItems"         :["Functionality Testing", "Boundary Conditions", "Negative Testing"],
+  "DataDrivenCheckItems"        :["External Data Files", "Dynamic Inputs"],
+  "ActionsCheckItems"           :["MoveToElement", "Select"],
+  "AssertionsCheckItems"        :["True/False", "Element Text", "Visibility"],
+  "HeadersCheckItems"           :["Content-Type", "Authorization", "Accept"],
+  "BodyCheckItems"              :["Request Payload", "Response Body"],
+  "OOPCheckItems"               :["Encapsulation", "Inheritance"],
+  "DesignPatternCheckItems"     :["Singleton", "Factory"],
+  "LocatorsCheckItems"          :["CSS Selectors", "Classes"],
+  "CapabilitiesCheckItems"      :["Browser Compatibility", "Platform Support"],
+  "SimulationsCheckItems"       :["Load Testing", "Stress Testing"],
+  "ISTQB-CTFLCheckItems"        :["TestingTechniques", "TestingProcess"],
+  "PostmanCheckItems"           :["Collections", "Environment Variables"],
+  "Newman-CLICheckItems"        :["Run Collections", "Export Results"],
+  "ControllersCheckItems"       :["Action Methods", "View Controllers"],
+  "LoopingCheckItems"           :["For Loops", "While Loops"],
+  "LocatorCypress"              :[],
+  "MethodsCheckItems"           :["Test Initialization", "Test Execution", "Test Cleanup"],
+  "InjectionCheckItems"         :["Dependency Injection", "Service Injection", "Constructor Injection"],
+
+
+  "moveToDone"     : ["Selenium Course","RestAssured Course","Manual Course"],
+  "moveToToDo"     : ["Appium Course","API Course"],
+  "moveToDoing"    : ["Cypress Course","Jmeter Course"],
+  "moveToToBeDone" : ["Java Course"],
+  "moveToLater"    : []
+
+
+
+
+
+}
+
+
+
+
+
+
